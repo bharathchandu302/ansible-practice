@@ -1,0 +1,6 @@
+- name: ping the address
+  hosts: frontend
+  become: yes
+  tasks:
+  - name: ping 
+    ansible.builtin.pimg:
