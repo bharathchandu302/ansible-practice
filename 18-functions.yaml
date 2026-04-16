@@ -1,4 +1,4 @@
-- naeme: Functions
+- name: Functions
   hosts: local
   connection: local
   become: yes
